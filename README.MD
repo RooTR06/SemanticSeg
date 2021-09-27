@@ -12,10 +12,12 @@ Layer7
 
 layer8: 1x1 conv
 
-layer9:  upsmaple to match layer4 of VGG16
-*skip connectino between VGG layer4 and layer9
+layer9:  upsample to match layer4 of VGG16
 
-layer10:  upsmaple to match layer3 of VGG16
-*skip connectino between VGG layer3 and layer10
+*skip connection between VGG layer4 and layer9
 
-layer11:  upsmaple to match input image
+layer10:  upsample to match layer3 of VGG16
+
+*skip connection between VGG layer3 and layer10
+
+layer11:  upsample to match input image
