@@ -1,6 +1,6 @@
 I am designing a semantic segmantion NN for autonomous vision on roads. SinceI have a relativly small computational power and a small dataset (10.000 images) I decided to employ transfer learning
 
-Architecture will be Fully connected Network rather than using dense layers. It uses the feature extractor layers of VGG16 than connects to FCN as follows;
+Architecture will be Fully connected Network rather than using dense layers. It uses the feature extractor layers of VGG16 than connects to FCN by building a U-Net like structure as follows(Initially I wanted to use U-net but not enough computational power :/);
 
 ### -->Encoder: VGG16 
 Use the feature extractor layers:
